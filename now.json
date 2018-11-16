@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "name": "TEMPLATE",
+  "name": "decks",
   "builds": [
     {
-      "src": "deck.mdx",
+      "src": "*.mdx",
       "use": "@now/mdx-deck"
     }
   ]
