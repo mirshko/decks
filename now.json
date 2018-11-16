@@ -3,7 +3,7 @@
   "name": "decks",
   "builds": [
     {
-      "src": "*.mdx",
+      "src": "**/*.mdx",
       "use": "@now/mdx-deck"
     }
   ]
