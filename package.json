@@ -1,0 +1,24 @@
+{
+  "name": "decks",
+  "version": "1.0.0",
+  "description": "slide decks moved into mdx format cause why not.",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck ./**/*.mdx",
+    "build": "mdx-deck build ./**/*.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirshko/decks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirshko/decks/issues"
+  },
+  "homepage": "https://github.com/mirshko/decks#readme",
+  "devDependencies": {
+    "mdx-deck": "^1.8.2"
+  }
+}
